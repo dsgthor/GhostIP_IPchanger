@@ -1,0 +1,20 @@
+# GhostIP - Advanced IP Rotation Utility
+# Python package requirements
+
+# Core HTTP library for making requests through proxies
+requests>=2.25.0
+
+# Terminal color support for better user interface
+colorama>=0.4.4
+
+# HTTP adapter with retry strategies (dependency of requests)
+urllib3>=1.26.0
+
+# Character encoding detection (dependency of requests)
+chardet>=4.0.0
+
+# Certificate handling (dependency of requests)
+certifi>=2020.12.5
+
+# URL parsing utilities (dependency of requests)
+idna>=2.10
